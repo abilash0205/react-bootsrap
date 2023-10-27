@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Rokkitt:wght@200&display=swap");
+
+:root {
+  --primary-color: rgb(211, 211, 211);
+}
+
+.fullscreen-image {
+  background-image: url("https://images.hdqwalls.com/download/nvidia-brand-logo-1920x1080.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 5px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 7px;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: rgb(25, 227, 4);
+}
+
+.content {
+  margin-left: 10%;
+}
+
+.content h1,
+p {
+  color: var(--primary-color);
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-family: "Cinzel", serif;
+}
+
+.content p {
+  font-size: 1.5rem;
+  font-family: "Rokkitt", serif;
+}
+
+button {
+  padding: 4px 15px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 1px solid #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(25, 227, 4);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+button:hover,
+button:focus,
+button:active {
+  color: #000;
+}
+button:hover:before,
+button:focus:before,
+button:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}

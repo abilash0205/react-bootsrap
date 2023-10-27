@@ -1,0 +1,19 @@
+.imgContainer{
+    overflow: hidden;
+}
+
+.imgContainer:hover .image{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.textTruncate {
+    overflow: hidden;   
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+
+.expanded {
+    -webkit-line-clamp: unset;
+}
