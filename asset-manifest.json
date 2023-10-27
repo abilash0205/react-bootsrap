@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-bootstrap/static/css/main.20374767.css",
+    "main.js": "/react-bootstrap/static/js/main.277ec1c4.js",
+    "static/media/Switzerland.jpg": "/react-bootstrap/static/media/Switzerland.26c5d434c573696721f0.jpg",
+    "static/media/Denmark.jpg": "/react-bootstrap/static/media/Denmark.f7f5e88c31900cf241b6.jpg",
+    "static/media/Iceland.jpg": "/react-bootstrap/static/media/Iceland.d2dce3a6820ba42bf546.jpg",
+    "static/media/Norway.jpg": "/react-bootstrap/static/media/Norway.376f33d626481a8235d9.jpg",
+    "index.html": "/react-bootstrap/index.html",
+    "main.20374767.css.map": "/react-bootstrap/static/css/main.20374767.css.map",
+    "main.277ec1c4.js.map": "/react-bootstrap/static/js/main.277ec1c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20374767.css",
+    "static/js/main.277ec1c4.js"
+  ]
+}
